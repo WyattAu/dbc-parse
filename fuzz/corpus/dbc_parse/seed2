@@ -1,0 +1,3 @@
+CM_ BO_ 496 "a comment with ""escaped quotes"" and ; semicolons";
+BO_ 5 M: 1 N
+ SG_ S : 7|8@0+ (1,0) [0|255] "" N

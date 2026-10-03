@@ -1,0 +1,9 @@
+VERS"1.0"
+
+BU_: PCM1 FOO
+
+BO_ 496 ExampleMessage: 8  FOO
+
+B 496 ExCM1 FOO
+
+BO_ 496 ExampleMessage: 6  FOOed" ;

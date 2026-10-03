@@ -1,0 +1,53 @@
+[package]
+name = "dbc-parse"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+authors = ["Wyatt Au <wyatt_au@protonmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/WyattAu/dbc-parse"
+homepage = "https://github.com/WyattAu/dbc-parse"
+documentation = "https://docs.rs/dbc-parse"
+description = "DBC file parser — CAN message definitions, signal layout (bit-offset/length/endianness/scaling), value tables, extended multiplexing"
+readme = "README.md"
+keywords = ["dbc", "can", "automotive", "parser", "no-std"]
+categories = ["encoding", "parser-implementations", "no-std", "embedded"]
+exclude = [".github/", "fuzz/", "supply-chain/"]
+
+# Layer model: docs/layers.md in WyattAu/engineering-standards.
+# L0 — leaf: zero estate-internal dependencies (dbc-parse carries its own
+# minimal CanId rather than depending on can-core — L0 forbids runtime
+# estate deps), zero external runtime dependencies.
+[package.metadata.layers]
+tier = "L0"
+
+# No runtime dependencies: the error type is hand-rolled (core::fmt), the
+# grammar is a hand-rolled scanner, and float parsing is `core` str::parse.
+
+[dev-dependencies]
+proptest = "1"
+criterion = "0.7"
+
+[[bench]]
+name = "parse"
+harness = false
+
+[lints.rust]
+missing_docs = "deny"
+unsafe_code = "deny"
+
+# Tier A parser discipline: DBC files come from Vector tools, OEM exports,
+# and random repositories — hostile input is the norm. The parser is "never
+# panics on input": bounds are checked at every access and errors are typed
+# and exhaustive. The fuzz/dev targets lift these at the file level with
+# justification; the lib target never does.
+[lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+indexing_slicing = "deny"
+undocumented_unsafe_blocks = "deny"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1

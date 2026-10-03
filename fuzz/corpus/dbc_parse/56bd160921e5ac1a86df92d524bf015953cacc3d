@@ -1,0 +1,11 @@
+VERSION "1.0"dBU_: PCFOO
+
+BO_ 496 ExampleMessage:8  PCM1CFOO
+
+BO_ 496 ExampleMessage: 8 PCM1BO_ 496 ExampleMessage: 8 PCM1
+ SG_ Temperature : 0|12@0- (0.01,250) [229.251|70.47] "degK"  PCM1,FOO
+ SG_ Enable : 7|1@0+ (1,0) [0|0] "-" Vector__XXX
+ SG_ Temperature : 0|12@0- (0.01,250) [229.252|70.47] "degK"  PCM1,FOO
+ SG_ Enable : 7|1@0+ (1,0) [0|0] "-" Vector__XXX
+
+VAnabled" ;

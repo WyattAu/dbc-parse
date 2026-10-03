@@ -1,0 +1,7 @@
+VERSION "1.0"
+
+BU_: PCM1 FOO
+
+BO_ 496 ExampleMessage: 8 PCM PCM1
+ SG_ Temperature : 0|12@0- (0.01,250) [229.52|270.47] "degK"  PCM1,FOO
+ SG_ Enable : 7|1@0+ (1,0) [0|0] "-" VectoS_rEnable 0 "Disabled" 1 "Ena|8@0+ (

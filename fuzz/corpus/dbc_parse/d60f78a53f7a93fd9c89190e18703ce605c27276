@@ -1,0 +1,15 @@
+VERSION "125ector__0"
+
+BU_: PCM1Enabl8 0e FOO
+BO
+BU_: PCM1Enabl8 0mVERSION "125ector__0"
+
+BU_: PCM1Enabl8 0e FOO
+
+BO
+BU_: PCM1Enabl8 0 eFOO
+
+B FOO
+
+B;
+,

@@ -1,0 +1,15 @@
+BS_SION "2.0"
+
+RU_: P
+  VERSIO
+
+BO_ 519 Ex: 011 1NO
+
+BO_ 519 Ex: 011 1NzCMVzCMV FOO
+
+BO_ 519 Ex: 011 FOO
+
+BO_ 519 Ex: 011 1
+
+RU_: P
+  VERSI 1

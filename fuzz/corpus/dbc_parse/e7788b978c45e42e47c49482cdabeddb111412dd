@@ -1,0 +1,6 @@
+BO_ 2148676694 Message1: 8 Vector__XXX
+ SG_ BIT_K m24 : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Mult m24 : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ lexor M : 2|6@1+ (1,0) [0|0] "" Vector__XXX
+
+SG_M 21BusType" L_ N";

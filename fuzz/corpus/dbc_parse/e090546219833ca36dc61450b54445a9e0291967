@@ -1,0 +1,13 @@
+CM_  RO_ 496 "a comment wiVERSO "1.0"
+
+BU_53|270.47] "degK"  PCM1,FOO
+ SG_ Enable : 7|00] "-" Vector__XXX
+
+VAL_ 496 Enable 0NS_  "DisablN ".0"
+
+ "a comment wiVERSO "1.0"
+
+BU_53|270.47] O"degK"  PCM1,FOO
+ SG_ Enable : 7|00] "-" Vector__XXX
+
+VAL_ 496 Enable 0 "DisablN _"

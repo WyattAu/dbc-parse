@@ -1,0 +1,10 @@
+VERSION0"1.0"
+
+BU_: PCM1 FOO
+
+BO_ 496 Examp: 8  FOO
+
+BO_ 496 ExampleMessage: 0 PCM1
+ SGm_p eTeratXXX
+
+VAL_ 496 Enable 0 "Disabled" 1 "Enabled" ;

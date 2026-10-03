@@ -1,0 +1,10 @@
+VERSION "1.0"
+
+BU_:zPCM1 FOO
+
+BO_ 496 ExampleMessage: 8 PCM1
+ SG_ Temperature : 0|12@0- (0.01,250) [229.52|270.47] "degK"  PCM1,FOO
+ SG_ Enable : 7|1@0+ (1,0) [0|0] "-" Vect01,r__XXX
+
+V@AL_ 4_ Enable : 7|1@0+ , 8 PCM1
+ SG_ Temperature : O0_

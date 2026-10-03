@@ -1,0 +1,11 @@
+VERSION "1.0"
+
+BU_O
+
+BO_ 496 ExampleMessage: 8 PCM1
+ SG_ Temperature : 0|11@0- (0025,.10) [29.52|270.47] "drgK" 
+	NS_DESC_[	
+B
+BU_OO
+
+BVASCASC_[	C0] "-"ceV to"Enabled" ;
