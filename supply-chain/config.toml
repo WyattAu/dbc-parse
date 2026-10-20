@@ -64,10 +64,6 @@ criteria = "safe-to-run"
 version = "0.3.5"
 criteria = "safe-to-run"
 
-[[exemptions.criterion-plot]]
-version = "0.4.4"
-criteria = "safe-to-run"
-
 [[exemptions.crossbeam-deque]]
 version = "0.8.8"
 criteria = "safe-to-run"
@@ -86,18 +82,6 @@ criteria = "safe-to-run"
 
 [[exemptions.fastrand]]
 version = "2.5.0"
-criteria = "safe-to-run"
-
-[[exemptions.futures-core]]
-version = "0.3.34"
-criteria = "safe-to-run"
-
-[[exemptions.futures-task]]
-version = "0.3.34"
-criteria = "safe-to-run"
-
-[[exemptions.futures-util]]
-version = "0.3.34"
 criteria = "safe-to-run"
 
 [[exemptions.getrandom]]
@@ -150,10 +134,6 @@ criteria = "safe-to-run"
 
 [[exemptions.proptest]]
 version = "1.11.0"
-criteria = "safe-to-run"
-
-[[exemptions.r-efi]]
-version = "5.2.0"
 criteria = "safe-to-run"
 
 [[exemptions.r-efi]]
