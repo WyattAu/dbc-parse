@@ -44,8 +44,28 @@ criteria = "safe-to-run"
 version = "2.13.2"
 criteria = "safe-to-run"
 
+[[exemptions.borsh]]
+version = "1.8.1"
+criteria = "safe-to-run"
+
+[[exemptions.borsh-derive]]
+version = "1.8.1"
+criteria = "safe-to-run"
+
+[[exemptions.bytes]]
+version = "1.12.1"
+criteria = "safe-to-run"
+
+[[exemptions.cc]]
+version = "1.6.0"
+criteria = "safe-to-run"
+
 [[exemptions.cfg-if]]
 version = "1.0.5"
+criteria = "safe-to-run"
+
+[[exemptions.chacha20]]
+version = "0.10.2"
 criteria = "safe-to-run"
 
 [[exemptions.clap]]
@@ -58,6 +78,10 @@ criteria = "safe-to-run"
 
 [[exemptions.clap_lex]]
 version = "1.1.1"
+criteria = "safe-to-run"
+
+[[exemptions.cpufeatures]]
+version = "0.3.1"
 criteria = "safe-to-run"
 
 [[exemptions.criterion]]
@@ -80,8 +104,16 @@ criteria = "safe-to-run"
 version = "1.18.0"
 criteria = "safe-to-run"
 
+[[exemptions.equivalent]]
+version = "1.0.3"
+criteria = "safe-to-run"
+
 [[exemptions.fastrand]]
 version = "2.5.0"
+criteria = "safe-to-run"
+
+[[exemptions.find-msvc-tools]]
+version = "0.1.14"
 criteria = "safe-to-run"
 
 [[exemptions.getrandom]]
@@ -90,6 +122,14 @@ criteria = "safe-to-run"
 
 [[exemptions.half]]
 version = "2.7.1"
+criteria = "safe-to-run"
+
+[[exemptions.hashbrown]]
+version = "0.17.1"
+criteria = "safe-to-run"
+
+[[exemptions.indexmap]]
+version = "2.14.2"
 criteria = "safe-to-run"
 
 [[exemptions.itoa]]
@@ -128,6 +168,10 @@ criteria = "safe-to-run"
 version = "0.3.7"
 criteria = "safe-to-run"
 
+[[exemptions.proc-macro-crate]]
+version = "3.5.0"
+criteria = "safe-to-run"
+
 [[exemptions.proc-macro2]]
 version = "1.0.107"
 criteria = "safe-to-run"
@@ -136,12 +180,28 @@ criteria = "safe-to-run"
 version = "1.11.0"
 criteria = "safe-to-run"
 
+[[exemptions.proptest]]
+version = "1.12.0"
+criteria = "safe-to-run"
+
 [[exemptions.r-efi]]
 version = "6.0.0"
 criteria = "safe-to-run"
 
 [[exemptions.rand]]
 version = "0.9.5"
+criteria = "safe-to-run"
+
+[[exemptions.rand]]
+version = "0.10.3"
+criteria = "safe-to-run"
+
+[[exemptions.rand_core]]
+version = "0.10.1"
+criteria = "safe-to-run"
+
+[[exemptions.rand_xorshift]]
+version = "0.5.0"
 criteria = "safe-to-run"
 
 [[exemptions.rayon]]
@@ -200,6 +260,18 @@ criteria = "safe-to-run"
 version = "3.0.6"
 criteria = "safe-to-run"
 
+[[exemptions.toml_datetime]]
+version = "1.1.2+spec-1.1.0"
+criteria = "safe-to-run"
+
+[[exemptions.toml_edit]]
+version = "0.25.17+spec-1.1.0"
+criteria = "safe-to-run"
+
+[[exemptions.toml_parser]]
+version = "1.1.5+spec-1.1.0"
+criteria = "safe-to-run"
+
 [[exemptions.unicode-ident]]
 version = "1.0.26"
 criteria = "safe-to-run"
@@ -228,8 +300,20 @@ criteria = "safe-to-run"
 version = "0.3.106"
 criteria = "safe-to-run"
 
+[[exemptions.winapi-i686-pc-windows-gnu]]
+version = "0.4.0"
+criteria = "safe-to-run"
+
+[[exemptions.winapi-x86_64-pc-windows-gnu]]
+version = "0.4.0"
+criteria = "safe-to-run"
+
 [[exemptions.windows-sys]]
 version = "0.61.2"
+criteria = "safe-to-run"
+
+[[exemptions.winnow]]
+version = "1.0.4"
 criteria = "safe-to-run"
 
 [[exemptions.zerocopy]]
