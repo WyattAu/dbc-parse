@@ -1,9 +1,9 @@
 # dbc-parse
 
-DBC file parser — CAN message definitions, signal layout
+DBC file parser: CAN message definitions, signal layout
 (bit-offset/length/endianness/scaling), value tables, extended multiplexing.
 
-**Layer:** L0 — leaf · **Estate deps:** zero (own minimal `CanId`) ·
+**Layer:** L0: leaf · **Estate deps:** zero (own minimal `CanId`) ·
 **Runtime deps:** zero · `no_std` + `alloc` (CI exercises
 `thumbv7em-none-eabihf`).
 
@@ -12,19 +12,19 @@ DBC file parser — CAN message definitions, signal layout
 | Module | Contents |
 |---|---|
 | `model` | `Dbc` (`Dbc::parse`), `Message::unpack`, `Signal::decode_raw`/`encode_raw`, `Node`, `ValueTable`, `Attribute`, `ExtendedMux`, `CanId` |
-| `bits` | The two DBC bit-numbering systems: Motorola (big-endian, `@0` — `start_bit` is the MSB, sawtooth walk) and Intel (little-endian, `@1` — `start_bit` is the LSB, linear) |
+| `bits` | The two DBC bit-numbering systems: Motorola (big-endian, `@0`: `start_bit` is the MSB, sawtooth walk) and Intel (little-endian, `@1`: `start_bit` is the LSB, linear) |
 | `parser` | The Vector DBC grammar: `VERSION`, `NS_`, `BS_`, `BU_`, `BO_`, `SG_` (`M`/`m<N>`/`m<N>M`), `CM_`, `VAL_`, `VAL_TABLE_`, `BA_`, `BA_DEF_`, `BA_DEF_DEF_`, `SG_MUL_VAL_` |
-| `error` | `DbcError` — the single typed, exhaustive error |
+| `error` | `DbcError`: the single typed, exhaustive error |
 
-## Motorola bit numbering — done right
+## Motorola bit numbering: done right
 
 DBC files number bits per byte, LSB-first; the byte orders differ in what
 `start_bit` names and the direction of travel:
 
-* **Intel (`@1`)** — `start_bit` is the **LSB**; bits ascend linearly.
-* **Motorola (`@0`)** — `start_bit` is the **MSB**; extraction descends
+* **Intel (`@1`)**: `start_bit` is the **LSB**; bits ascend linearly.
+* **Motorola (`@0`)**: `start_bit` is the **MSB**; extraction descends
   within each byte and jumps from bit 0 of one byte to bit 7 of the next
-  (`+15` in DBC numbering — the sawtooth). A `39|16@0+` signal is a
+  (`+15` in DBC numbering: the sawtooth). A `39|16@0+` signal is a
   big-endian `u16` across bytes 4–5; motohawk's `0|12@0-` Temperature
   straddles three bytes.
 
@@ -35,7 +35,7 @@ sample files (golden decode *and* encode vectors).
 
 ## Guarantees
 
-- **Total parser**: `Dbc::parse` never panics — every failure is a typed
+- **Total parser**: `Dbc::parse` never panics: every failure is a typed
   `DbcError::Syntax` with a line number (unknown vendor keywords are
   skipped, not rejected). Deny-level lints
   (`unwrap_used`/`expect_used`/`panic`/`indexing_slicing`) on the lib
@@ -72,4 +72,4 @@ license); golden vectors were produced with cantools 44.1.0.
 
 ## License
 
-MIT OR Apache-2.0 — see LICENSE-MIT and LICENSE-APACHE.
+MIT OR Apache-2.0: see LICENSE-MIT and LICENSE-APACHE.
