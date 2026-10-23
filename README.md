@@ -1,4 +1,5 @@
 # dbc-parse
+[![Estate integration](https://github.com/WyattAu/estate-integration/actions/workflows/ci.yml/badge.svg)](https://github.com/WyattAu/estate-integration/actions/workflows/ci.yml)
 
 DBC file parser: CAN message definitions, signal layout
 (bit-offset/length/endianness/scaling), value tables, extended multiplexing.
