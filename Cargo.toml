@@ -1,6 +1,6 @@
 [package]
 name = "dbc-parse"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.85"
 authors = ["Wyatt Au <wyatt_au@protonmail.com>"]
@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/WyattAu/dbc-parse"
 homepage = "https://github.com/WyattAu/dbc-parse"
 documentation = "https://docs.rs/dbc-parse"
-description = "DBC file parser — CAN message definitions, signal layout (bit-offset/length/endianness/scaling), value tables, extended multiplexing"
+description = "DBC file parser: CAN message definitions, signal layout (bit-offset/length/endianness/scaling), value tables, extended multiplexing"
 readme = "README.md"
 keywords = ["dbc", "can", "automotive", "parser", "no-std"]
 categories = ["encoding", "parser-implementations", "no-std", "embedded"]
