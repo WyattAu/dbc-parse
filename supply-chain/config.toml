@@ -60,6 +60,10 @@ criteria = "safe-to-run"
 version = "1.6.0"
 criteria = "safe-to-run"
 
+[[exemptions.cc]]
+version = "1.10.0"
+criteria = "safe-to-run"
+
 [[exemptions.cfg-if]]
 version = "1.0.5"
 criteria = "safe-to-run"
@@ -100,8 +104,16 @@ criteria = "safe-to-run"
 version = "0.8.23"
 criteria = "safe-to-run"
 
+[[exemptions.dbc-parse]]
+version = "0.1.2"
+criteria = "safe-to-deploy"
+
 [[exemptions.either]]
 version = "1.18.0"
+criteria = "safe-to-run"
+
+[[exemptions.either]]
+version = "1.19.0"
 criteria = "safe-to-run"
 
 [[exemptions.equivalent]]
@@ -114,6 +126,10 @@ criteria = "safe-to-run"
 
 [[exemptions.find-msvc-tools]]
 version = "0.1.14"
+criteria = "safe-to-run"
+
+[[exemptions.find-msvc-tools]]
+version = "0.1.15"
 criteria = "safe-to-run"
 
 [[exemptions.getrandom]]
@@ -142,6 +158,10 @@ criteria = "safe-to-run"
 
 [[exemptions.libc]]
 version = "0.2.190"
+criteria = "safe-to-run"
+
+[[exemptions.libc]]
+version = "0.2.191"
 criteria = "safe-to-run"
 
 [[exemptions.linux-raw-sys]]
@@ -224,6 +244,10 @@ criteria = "safe-to-run"
 version = "1.1.5"
 criteria = "safe-to-run"
 
+[[exemptions.rustix]]
+version = "1.1.6"
+criteria = "safe-to-run"
+
 [[exemptions.rustversion]]
 version = "1.0.23"
 criteria = "safe-to-run"
@@ -248,6 +272,10 @@ criteria = "safe-to-run"
 version = "1.0.151"
 criteria = "safe-to-run"
 
+[[exemptions.serde_json]]
+version = "1.0.154"
+criteria = "safe-to-run"
+
 [[exemptions.slab]]
 version = "0.4.12"
 criteria = "safe-to-run"
@@ -258,6 +286,10 @@ criteria = "safe-to-run"
 
 [[exemptions.syn]]
 version = "3.0.6"
+criteria = "safe-to-run"
+
+[[exemptions.syn]]
+version = "3.0.9"
 criteria = "safe-to-run"
 
 [[exemptions.toml_datetime]]
@@ -274,6 +306,10 @@ criteria = "safe-to-run"
 
 [[exemptions.unicode-ident]]
 version = "1.0.26"
+criteria = "safe-to-run"
+
+[[exemptions.unicode-ident]]
+version = "1.0.27"
 criteria = "safe-to-run"
 
 [[exemptions.walkdir]]
@@ -320,8 +356,16 @@ criteria = "safe-to-run"
 version = "0.8.59"
 criteria = "safe-to-run"
 
+[[exemptions.zerocopy]]
+version = "0.8.63"
+criteria = "safe-to-run"
+
 [[exemptions.zerocopy-derive]]
 version = "0.8.59"
+criteria = "safe-to-run"
+
+[[exemptions.zerocopy-derive]]
+version = "0.8.63"
 criteria = "safe-to-run"
 
 [[exemptions.zmij]]
