@@ -57,19 +57,11 @@ version = "1.12.1"
 criteria = "safe-to-run"
 
 [[exemptions.cc]]
-version = "1.6.0"
-criteria = "safe-to-run"
-
-[[exemptions.cc]]
 version = "1.10.0"
 criteria = "safe-to-run"
 
 [[exemptions.cfg-if]]
 version = "1.0.5"
-criteria = "safe-to-run"
-
-[[exemptions.chacha20]]
-version = "0.10.2"
 criteria = "safe-to-run"
 
 [[exemptions.clap]]
@@ -82,10 +74,6 @@ criteria = "safe-to-run"
 
 [[exemptions.clap_lex]]
 version = "1.1.1"
-criteria = "safe-to-run"
-
-[[exemptions.cpufeatures]]
-version = "0.3.1"
 criteria = "safe-to-run"
 
 [[exemptions.criterion]]
@@ -109,10 +97,6 @@ version = "0.1.2"
 criteria = "safe-to-deploy"
 
 [[exemptions.either]]
-version = "1.18.0"
-criteria = "safe-to-run"
-
-[[exemptions.either]]
 version = "1.19.0"
 criteria = "safe-to-run"
 
@@ -125,15 +109,7 @@ version = "2.5.0"
 criteria = "safe-to-run"
 
 [[exemptions.find-msvc-tools]]
-version = "0.1.14"
-criteria = "safe-to-run"
-
-[[exemptions.find-msvc-tools]]
 version = "0.1.15"
-criteria = "safe-to-run"
-
-[[exemptions.getrandom]]
-version = "0.4.3"
 criteria = "safe-to-run"
 
 [[exemptions.half]]
@@ -154,10 +130,6 @@ criteria = "safe-to-run"
 
 [[exemptions.js-sys]]
 version = "0.3.106"
-criteria = "safe-to-run"
-
-[[exemptions.libc]]
-version = "0.2.190"
 criteria = "safe-to-run"
 
 [[exemptions.libc]]
@@ -197,27 +169,11 @@ version = "1.0.107"
 criteria = "safe-to-run"
 
 [[exemptions.proptest]]
-version = "1.11.0"
-criteria = "safe-to-run"
-
-[[exemptions.proptest]]
 version = "1.12.0"
 criteria = "safe-to-run"
 
 [[exemptions.r-efi]]
 version = "6.0.0"
-criteria = "safe-to-run"
-
-[[exemptions.rand]]
-version = "0.9.5"
-criteria = "safe-to-run"
-
-[[exemptions.rand]]
-version = "0.10.3"
-criteria = "safe-to-run"
-
-[[exemptions.rand_core]]
-version = "0.10.1"
 criteria = "safe-to-run"
 
 [[exemptions.rand_xorshift]]
@@ -238,10 +194,6 @@ criteria = "safe-to-run"
 
 [[exemptions.regex-syntax]]
 version = "0.8.11"
-criteria = "safe-to-run"
-
-[[exemptions.rustix]]
-version = "1.1.5"
 criteria = "safe-to-run"
 
 [[exemptions.rustix]]
@@ -269,10 +221,6 @@ version = "1.0.229"
 criteria = "safe-to-run"
 
 [[exemptions.serde_json]]
-version = "1.0.151"
-criteria = "safe-to-run"
-
-[[exemptions.serde_json]]
 version = "1.0.154"
 criteria = "safe-to-run"
 
@@ -282,10 +230,6 @@ criteria = "safe-to-run"
 
 [[exemptions.syn]]
 version = "2.0.119"
-criteria = "safe-to-run"
-
-[[exemptions.syn]]
-version = "3.0.6"
 criteria = "safe-to-run"
 
 [[exemptions.syn]]
@@ -302,10 +246,6 @@ criteria = "safe-to-run"
 
 [[exemptions.toml_parser]]
 version = "1.1.5+spec-1.1.0"
-criteria = "safe-to-run"
-
-[[exemptions.unicode-ident]]
-version = "1.0.26"
 criteria = "safe-to-run"
 
 [[exemptions.unicode-ident]]
@@ -353,15 +293,7 @@ version = "1.0.4"
 criteria = "safe-to-run"
 
 [[exemptions.zerocopy]]
-version = "0.8.59"
-criteria = "safe-to-run"
-
-[[exemptions.zerocopy]]
 version = "0.8.63"
-criteria = "safe-to-run"
-
-[[exemptions.zerocopy-derive]]
-version = "0.8.59"
 criteria = "safe-to-run"
 
 [[exemptions.zerocopy-derive]]
